@@ -1,0 +1,36 @@
+#navbar {
+    font: arial;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+.navbaritems {
+    margin: 0px 5px 0px 5px;
+}
+
+#gmail a:hover {
+    text-decoration: line-through;
+}
+
+#signin {
+    display: inline-block;
+    color: white;
+    padding: 3px 12px;
+    width: 60px;
+    height: 28px;
+    background-color: blue;
+}
+
+#img-logo {
+    margin-top: 200px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+    align-content: center;
+}
