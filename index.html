@@ -1,16 +1,24 @@
 <html>
   <link rel="stylesheet" href="styles.css">
     <head>
-        <nav id="navbar">
-            <a class="navbaritems" id="gmail" href="#">Gmail</a>
-            <a class="navbaritems" id="boxofmenu" href="#">About</a>
-            <a class="navbaritems" id="signin" href="#">Sign in</a>
-          </nav>
+        
     </head>
+    <body>
+      <header> <nav id="navbar">
+        <a class="navbaritems" id="gmail" href="#">Gmail</a>
+        <a class="navbaritems" id="boxofmenu" href="#"><img id="menuicon" src="https://static.thenounproject.com/png/110306-200.png"></a>
+        <a class="navbaritems" id="signin" href="#">Sign in</a>
+      </nav>
+    </header>
     <main>
+      <div class="logoandsearchbar">
       <img id="img-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <br> <input id="searchbar" type="text">
-
-    </main>
-
+         <input id="searchbar" type="search" size="50">
+      </div>
+    <div id="buttons">
+    <input id="search" class="Submitbuttons" type="submit" value="Google Search"> <input id="lucky" class="Submitbuttons" type="submit" value="Feeling Lucky">
+  <br> <br> Google offered in: <a class="language" id="arabic" href="#">العربية</a> <a class="language" id="français" href="#">francais</a>
+  </div>
+  </main>
+</body>
 </html>
