@@ -42,3 +42,54 @@
     margin: 10px 10px;
     text-align: center;
     }
+
+#searchbar {
+    background-size: 12px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(https://img.favpng.com/23/21/19/microphone-google-voice-google-search-google-logo-png-favpng-UJeYLR22gS5SbKFHqcnW6zuhu.jpg);
+    border-radius: 50px;
+
+}
+
+#downbar{
+    position: fixed;
+    left: 0;
+    bottom: 5;
+    width: 100%;
+    
+    display: flex;
+}
+#containeroffirstdownbar {
+    position: fixed;
+    bottom: 30;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5px;
+
+}
+
+
+#containerofseconddownbarleft {
+    display: flex;
+    justify-content: flex-start;
+}
+.seconddownbarleft {
+    margin-left: 5px;
+
+    margin-right: 27px;
+}
+
+
+#containerofseconddownbarright {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    right: 0;
+}
+.seconddownbarright {
+    display: flex;
+    margin-right: 5px;
+    margin-left: 27px;
+    justify-content: flex-end;
+}
