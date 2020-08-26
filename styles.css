@@ -52,9 +52,12 @@ cursor: pointer;
 /******* main settings *******/
 main {
     text-align: center;
+    position: relative;
+    top: 4em;
 }
 
 #googlelogo {
+    
     margin: 10px;
 }
 
@@ -68,8 +71,8 @@ main {
     background-size: 4%;
     background-position: 15px center;
     background-color: white;
-    padding-left: 60px;
-    font-size: 18px;
+    padding-left: 2.5em;
+    font-size: 1em;
 }
 
 #field-search:hover, #field-search:active, #field-search:focus {
@@ -95,7 +98,7 @@ main {
 /******* footer settings *******/
 
 footer {
-    font-size: 20px;
+    font-size: 1.3em;
     position: absolute;
     bottom: 0;
     width: 100%;
