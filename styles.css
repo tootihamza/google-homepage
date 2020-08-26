@@ -1,95 +1,97 @@
-#navbar {
-    font: arial;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    
-    
+/* general settings */
+body {
+    font-family: arial,sans-serif;
+}
 
+/******* navigation bar settings starting *******/
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
 }
-.navbaritems {
-    margin: 0px 5px 0px 5px;
-    font-size: 12px;
-    padding: 8px 6px;
+nav ul li {
+    margin: 15px;
 }
-#menuicon {
-    height: 20px;
-    width: 20px;
+
+nav ul li a {
+    text-decoration: none;
+}
+
+#gmail:hover {
+    text-decoration: underline;
+}
+
+#gmail:visited, #gmail:link {
+    color: black;
+}
+
+#appselector {
+    position: relative;
+    bottom: 10px;
+    width: 110%;
+    padding: 2px;
+}
+
+#appselector:hover {
+    cursor: pointer;
+    background-color: black;
 }
 
 #signin {
+    background-color: #4387fd;
+    border: 1px solid #4285f4;
+    padding: 8px 15px;
     color: white;
-    background-color: #4285f4;
 }
 
-#img-logo {
-    margin-top: 150px;
-    margin-bottom: 20px;
+#signin:hover {
+cursor: pointer;
 }
-.logoandsearchbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center; 
-    align-content: center;
-}
-#buttons {
-    text-align: center;
-}
-.Submitbuttons {
-    margin: 10px 10px;
-    text-align: center;
-    }
+/* end of navigation bar settings */
 
-#searchbar {
-    background-size: 12px;
-    background-position: left;
+/******* main settings *******/
+main {
+    text-align: center;
+}
+
+#googlelogo {
+    margin: 10px;
+}
+
+#field-search {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #d3d7dd;
+    background-image: url(search-logo.png);
     background-repeat: no-repeat;
-    background-image: url(https://img.favpng.com/23/21/19/microphone-google-voice-google-search-google-logo-png-favpng-UJeYLR22gS5SbKFHqcnW6zuhu.jpg);
-    border-radius: 50px;
-
+    background-size: 4%;
+    background-position: 15px center;
+    background-color: white;
+    padding-left: 60px;
+    font-size: 18px;
 }
 
-#downbar{
-    position: fixed;
-    left: 0;
-    bottom: 5;
-    width: 100%;
-    
-    display: flex;
-}
-#containeroffirstdownbar {
-    position: fixed;
-    bottom: 30;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 5px;
-
+#field-search:hover, #field-search:active, #field-search:focus {
+    box-shadow: 2px 2px 10px gray;
 }
 
-
-#containerofseconddownbarleft {
-    display: flex;
-    justify-content: flex-start;
-}
-.seconddownbarleft {
-    margin-left: 5px;
-
-    margin-right: 27px;
+.google-buttons {
+    margin: 5px;
+    padding: 10px 20px;
+    color: #5F6368;
+    border: 0;
+    border-radius: 4px;
+    background-color: #f2f2f2;
 }
 
+.google-buttons:hover {
+    border: 1px solid #5F6368;
+    color: black;
+}
 
-#containerofseconddownbarright {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    right: 0;
-}
-.seconddownbarright {
-    display: flex;
-    margin-right: 5px;
-    margin-left: 27px;
-    justify-content: flex-end;
-}
+/* end of main settings */
+
+/******* footer settings *******/
+
+/* end of footer settings*/
