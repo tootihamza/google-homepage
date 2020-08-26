@@ -94,4 +94,50 @@ main {
 
 /******* footer settings *******/
 
+footer {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+
+}
+footer a:link, footer a:visited {
+    text-decoration: none;
+    margin-bottom: 2px;
+    color: rgba(0,0,0,.54);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    list-style-type: none;
+    margin-right: 20px;
+    
+}
+
+#footer-container-up {
+    color: rgba(0,0,0,.54);
+    line-height: 50px;
+    border-top: 1px solid #e4e4e4;
+    margin-left: 40px;;
+}
+
+#footer-container-down {
+    color: rgba(0,0,0,.54);
+    border-top: 1px solid #e4e4e4;
+    margin-right: 40px;
+}
+#left-footer {
+    display: flex;
+    float: left;
+}
+
+
+#right-footer {
+    display: flex;
+    float: right;
+}
 /* end of footer settings*/
